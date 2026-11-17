@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+$c-gold: #ffd700;
+$c-red:#ff0000;
+$c-green:#008000;
+$c-white:#ffffff;
+
+body{
+    background-color: $c-gold;
+}
+
+.title{
+    color: $c-red;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+
+    &_cards{
+        width: 450px;
+        height: 450px;
+        background-color: $c-red;
+        border-radius: 20px;
+        color: $c-white;
+         padding: 20px 50px;
+    }
+
+    &_card{
+        width: 350px;
+        height: 300px;
+        border-radius: 20px;
+        background-color: $c-green;
+        margin-bottom: 20px;
+    }
+    &_img{
+        width: 80%;
+       
+    }
+}
+
